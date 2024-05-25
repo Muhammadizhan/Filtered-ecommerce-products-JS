@@ -231,13 +231,13 @@ function renderProducts(productsToRender) {
   parent.innerHTML = "";
   productsToRender.forEach((item) => {
     parent.innerHTML += `
-            <div class="product">
-                <h2>${item.name}</h2>
-                <p>Price: $${item.price.toFixed(2)}</p>
-                <p>Category: ${item.category}</p>
-                <p>Brand: ${item.brand}</p>
-            </div>
-        `;
+          <div class="product">
+              <h2>${item.name}</h2>
+              <p>Price: $${item.price.toFixed(2)}</p>
+              <p>Category: ${item.category}</p>
+              <p>Brand: ${item.brand}</p>
+          </div>
+      `;
   });
 }
 
