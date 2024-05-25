@@ -3,16 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Filter</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Product Filter</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <button onclick="btn(this)">Electronics</button>
-    <button onclick="btn(this)">Footwear</button>
-    <button onclick="btn(this)">Stationery</button>
-    <button onclick="btn(this)">Fitness</button>
-    <button onclick="btn(this)">Kitchen Appliances</button>
-    <button onclick="btn(this)">Furniture</button>
+    <header>
+      <h1>Welcome to our Store!</h1>
+    </header>
+    <div class="buttons">
+      <button onclick="btn(this)">All</button>
+      <button onclick="btn(this)">Electronics</button>
+      <button onclick="btn(this)">Footwear</button>
+      <button onclick="btn(this)">Stationery</button>
+      <button onclick="btn(this)">Fitness</button>
+      <button onclick="btn(this)">Kitchen Appliances</button>
+      <button onclick="btn(this)">Furniture</button>
+    </div>
     <div id="main"></div>
     <script src="app.js"></script>
   </body>

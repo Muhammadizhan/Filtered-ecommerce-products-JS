@@ -226,7 +226,6 @@ const products = [
 
 let parent = document.getElementById("main");
 
-// Function to render products
 function renderProducts(productsToRender) {
   parent.innerHTML = "";
   productsToRender.forEach((item) => {
@@ -240,8 +239,6 @@ function renderProducts(productsToRender) {
       `;
   });
 }
-
-// Rendering all products initially
 renderProducts(products);
 
 function btn(element) {
